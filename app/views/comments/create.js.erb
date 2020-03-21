@@ -1,1 +1,1 @@
-document.getElementById("post-comments").innerHtml = "<%= escape_javascript(render 'posts/comments', comments: @comments) %>";
+$("#post-comments").text("<%= escape_javascript(render 'posts/comments', comments: @comments) %>");

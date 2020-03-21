@@ -8,11 +8,11 @@
   color: #000;
 
   &.active{
-    color: #f0f0f0;
+    color: #f00;
   }
 
   &:hover{
-    color: #fff;
+    color: #f00;
     cursor: pointer;
   }
 }
