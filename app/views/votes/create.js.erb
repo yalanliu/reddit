@@ -1,8 +1,8 @@
-console.log("vote has been saved")
+console.log("vote has been saved");
 
 $("#vote-actions-<%= @post.id %> score").text("<%= @post.score %>");
 
-<%= if @new_vote %>
+<% if @new_vote %>
   <% if @is_upvote == "true" %>
     $("#vote-actions-<%= @post.id %>").find(".upvote").addClass("active");
   <% else %>
